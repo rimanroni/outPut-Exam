@@ -6,14 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Only || learnin File</title>
     <link rel="stylesheet" href="style.css">
-  
-
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      body{
+         background-color: rgb(16, 13, 13);
+       }
+      input{
+         width: 500px !important;
+         text-align: center;
+         font-size: 22px;
+      }
+      .mainbox{
+         width: 800px !important;
+    height: 647px !important;
+    margin: auto;
+    position: relative;
+    top: 3px;
+          
+      }
+      .resultImg{
+         width: 400px;
+         height: 350px;
+         margin: auto;
+         position: relative;
+         top: 25px;
+         background-color: white;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+ </head>
 <body>
+  <div class="mainbox border border-info">
+   <h2 class="text-white d-flex justify-content-center py-5">Result APP</h2> 
+   <div class="input d-flex justify-content-center">
+      <input type="text" class="form-control " id="UserInput" placeholder="Enter Your Marks Here">
+    </div>
+      <div class="border border-danger border-5 resultImg ">
+         <p class="d-flex justify-content-center py-4">Result Box</p>
+          <h1 class="py-5" id="Golden">Congratulations! Your Result Is Golden</h1>
+          <h1 class="py-5" id="first">Congratulations! Your Result Is A+</h1>
+          <h1 class="py-5" id="Second">Congratulations! Your Result Is A</h1>
+          <h1 class="py-5" id="Thred">Congratulations! Your Result Is A-</h1>
+          <h1 class="py-5" id="Four">Congratulations! Your Result Is B</h1>
+          <h1 class="py-5" id="Five">Congratulations! Your Result Is C</h1>
+          <h1 class="py-5" id="Six">Congratulations! Your Result Is D</h1>
+          <h1 class="py-5" id="Seven">NO !!! Your Result Is FAILL</h1>
+      </div>
+      <button type="button" class="btn btn-success " id="submite">Submite</button>
+  </div>
      
-   <!--  result ber korar program  -->
-
-    <!-- js file -->
-   <script src="result.js"></script>
+  <script src="app.js"></script>
+ <!--  js bootstap link here  -->
 </body>
 </html>

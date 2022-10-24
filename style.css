@@ -1,0 +1,46 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+ }
+ #first{
+    display: none;
+ }
+ #Second{
+    display: none;
+ }
+ #Thred{
+    display: none;
+ }
+ #Four{
+    display: none;
+ }
+ #Five{
+    display: none;
+ }
+ #Six{
+    display: none;
+ }
+ #Seven{
+    display: none;
+ }
+#submite{
+    position: relative;
+    left: 300px;
+    top: 40px;
+    font-size: 24px;
+    width: 200px;
+    
+ }
+ #Golden{
+    display: none;
+    color: orange;
+ }
+ input{
+    cursor: pointer;
+ }
